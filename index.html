@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Cric Academy</title>
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="contact-info">
+            <span><i class="fas fa-phone-alt"></i> +92-4567893261</span>
+            <span><i class="fas fa-envelope"></i> cricacademy@gmail.com</span>
+            <span><i class="fas fa-map-marker-alt"></i> central Karachi</span>
+            <a href="login.html" class="login-signup"><i class="fas fa-user"></i> Log In | Sign Up</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="logo">
+            <img src="image/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#background">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#GALLERY">GALLERY</a></li>
+                <li><a href="#video">VIDEOS</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="background" id="background">
+        <img src="image/background.jpg" alt="background">
+    </div>
+
+
+    <div class="hero">
+        <h1>Cric Academy</h1>
+        <p>Providing Professional Training For Cricket</p>
+        <a href="#" class="cta">Enquire Now</a>
+    </div>
+
+    <!-- Services -->
+    <section class="services-section" id="services">
+        <h2>SERVICES</h2>
+        <div class="services-container">
+            <div class="service-item">
+                <img src="image/battings.jpg" alt="Batting">
+                <h3>Batting</h3>
+                <p>Learn fundamentals of batting like stance, grip and back lift with our well experienced team.</p>
+                <button>Enquire Now</button>
+            </div>
+            <div class="service-item">
+                <img src="image/bowling.jpeg" alt="Bowling">
+                <h3>Bowling</h3>
+                <p>Pitch perfect by learning from experts on run up and bowling techniques to become a great bowler.</p>
+                <button>Enquire Now</button>
+            </div>
+            <div class="service-item">
+                <img src="image/fielding.jpeg" alt="Fielding">
+                <h3>Fielding</h3>
+                <p>Fitness tips and fielding hacks from experts, which will surely help to become a great fielder.</p>
+                <button>Enquire Now</button>
+            </div>
+            <div class="service-item">
+                <img src="image/wickkeepering.jpeg" alt="Wicket Keeping">
+                <h3>Wicket Keeping</h3>
+                <p>Learn and understand wicket keeping mantras from the experienced teaching team. Contact us today.</p>
+                <button>Enquire Now</button>
+            </div>
+        </div>
+    </section>
+     
+    <!-- About Us -->
+
+    <div class="about" id="about">
+        <div class="about-us">
+            <img src="image/About_us.png" alt="">
+            <div class="about-text">
+                <h2><strong> ABOUT US </strong></About>
+                </h2>
+                <p>Welcome to Cric Academy! At Cric Academy, we are passionate about developing the next generation of
+                    cricket stars. Founded in 2010, we offer expert coaching and world-class facilities designed to help players of all levels
+                    excel. Our experienced coaches provide personalized training that focuses on technical skills,
+                    strategy, and mental toughness. We believe in fostering a supportive environment where athletes can
+                    grow and thrive. Our programs are tailored to meet individual needs, from beginners to advanced
+                    players. We also emphasize teamwork, discipline, and sportsmanship, ensuring holistic development.
+                    Join us and be part of a community dedicated to cricketing excellence!</p>
+            </div>
+        </div>
+
+    <!--  GALLERY -->
+
+    <h2>GALLERY</h2>
+    <div class="slides" id="GALLERY">
+        <div class="slide">
+            <img src="image/slider1.jpg" alt="slider1">
+        </div>
+
+        <div class="slide">
+            <img src="image/slider2.jpg" alt="slider2">
+        </div>
+
+        <div class="slide">
+            <img src="image/slider 3.jpg" alt="slider3">
+        </div>
+    </div>
+    
+        <!-- video -->
+
+        <h2>VIDEO</h2>
+        <div class="videos" id="video">
+            <video controls>
+                <source src="video/invideo-ai-1080 Cric Academy - The Ultimate Cricket Trai 2024-08-26.mp4" type="">
+            </video>
+        </div>
+
+        <!-- Contact Form -->
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            
+            <form>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="Phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"  placeholder="123-456-7890" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+              <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Welcome to Cric Academy! At Cric Academy, we are passionate about developing the next generation of
+                    cricket stars. Founded in 2010, we offer expert coaching and world-class facilities designed to help players of all levels
+                    excel.</p>
+              </div>
+              <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#background">HOME</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#GALLERY">GALLERY</a></li>
+                    <li><a href="#about">ABOUT US </a></li>
+                    <li><a href="#video">VIDEOS</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                  
+                </ul>
+              </div>
+              <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: <a href=" cricacademy@gmail.com"> cricacademy@gmail.com</a></p>
+                <p>Phone: +92-4567893261</p>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; 2024 Cric Academy. All rights reserved.</p>
+            </div>
+          </footer>
+</body>
+
+</html>
